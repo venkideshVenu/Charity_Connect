@@ -1,6 +1,18 @@
+.header {
+    text-align: left;
+    padding: 20px 0;
+    background-color: #000000; /* Optional: add a background color */
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #f6f6f6; /* Optional: set the text color */
+}
+
 body
 {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 /*------------------------------------------------NAVBAR----------------------------------------*/
 .nav
@@ -19,17 +31,7 @@ body
     right:0;
     left:0;
 }
-.logo
-{
-    float:left;
-    width: 50%;
-}
-.logo img
-{
-    padding: 8px;
-    width:30%;
-    margin-left:10%;
-}
+
 .nav_side
 {
     float:right;
@@ -266,10 +268,12 @@ footer
     display: inline-block;
     font-family: 'Trebuchet MS', sans-serif;
 }
-footer .aimg
-{
-    margin-top:21%;
+footer.aimg {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #333; /* Optional: set the text color */
+    text-decoration: none; /* Optional: remove underline */
 }
+
 footer .pages
 {
     width:25%;
